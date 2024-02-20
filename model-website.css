@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px 10px 70px;
+    font-family: 'poppins';
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.left a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    font-family: 'poppins';
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.head{
+    font-size: 50px;
+}
+
+.buy{
+    border: 1px solid white;
+    background-color: rgba(225, 225, 225, 0);
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buy:hover{
+    background-color: white;
+    color: black;
+}
+
+.later{
+    border: 1px solid white;
+    background-color: rgb(225, 225, 225);
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
