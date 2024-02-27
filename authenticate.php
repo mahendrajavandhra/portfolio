@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($result->num_rows == 1){
         //if successfull
         $_SESSION['username'] = $username;
-        header("Location: model-website.php"); 
+        header("Location: about.php"); 
     }else{
         //if failed
         echo "Wrong username or password";

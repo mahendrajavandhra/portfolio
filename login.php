@@ -166,13 +166,13 @@
     <div class="title">
       Login Form
     </div>
-    <form action="model-website.php" method="post">
+    <form action="authenticate.php" method="post">
       <div class="field">
-        <input type="text" required>
+        <input type="text" name="username" required>
         <label>Email Address</label>
       </div>
       <div class="field">
-        <input type="password" required>
+        <input type="password" name="password" required>
         <label>Password</label>
       </div>
       <!-- <div class="content">
